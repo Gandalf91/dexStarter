@@ -1,8 +1,51 @@
 import React from 'react'
+import Logo from '../fastMaticLogo.svg'
+import Matic from '../matic.svg'
+import Tg from '../tg1.svg'
+import { Link } from 'react-router-dom'
 
-function Header() {
+function Header(props) {
+  const { address, isConnected, connect } = props
+
   return (
-    <div>Header</div>
+    <header>
+      <div className="leftH">
+        <img src={Logo} alt="logo" className="logo" />
+        <Link to="/" className="link">
+          <div className="headerItem">FastMatic</div>
+        </Link>
+        <Link to="/dashboard" className="link">
+          <div className="headerItem">Dashboard</div>
+        </Link>
+        <div className="headerItem">
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noreferrer">
+            How Does It Worttsss
+          </a>
+        </div>
+      </div>
+      <div className="rightH">
+        <div className="headerItem">
+          <img src={Tg} alt="tg" />
+        </div>
+        <div className="headerItem">
+          <img src={Matic} alt="matic" className="eth" />
+          Polygon
+        </div>
+
+        <div
+          className="connectButton"
+          onClick={() => {
+            connect()
+          }}>
+          {isConnected
+            ? address.slice(0, 4) + '...' + address.slice(38)
+            : 'Connect'}
+        </div>
+      </div>
+    </header>
   )
 }
 
