@@ -6,12 +6,15 @@ require('dotenv').config()
 const port = 3001
 const ABI = require('./abi.json')
 
-const path = require('path') //delete as in video
+//const path = require('path')
 
 app.use(cors())
 app.use(express.json())
 
-app.use(express.static(path.join(__dirname + '/public'))) //delete as in video
+//app.use(express.static(path.join(__dirname + '/public')))
+
+//const PORT = process.env.PORT || 3001
+//app.listen(PORT)
 
 app.get('/getNameAndBalance', async (req, res) => {
   const { userAddress } = req.query
