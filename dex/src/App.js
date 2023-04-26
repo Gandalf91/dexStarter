@@ -20,7 +20,7 @@ function App() {
   })
 
   async function getNameAndBalance() {
-    const res = await axios.get(`http://localhost:3001/getNameAndBalance`, {
+    const res = await axios.get(`localhost:3001/getNameAndBalance`, {
       params: { userAddress: address },
     })
 
