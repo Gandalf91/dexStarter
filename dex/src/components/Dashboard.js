@@ -71,24 +71,28 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         <div className="balanceOptionsD">
           <div className="extraOptionD"> Balance in USD: {dollars}$</div>
         </div>
-        <div className="balanceOptionsD">
+        {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Rewards: {rewards} Matic</div>
-        </div>
+        </div> */}
         <div className="balanceOptionsD2">
-          <Button
+          {/*  <Button
             style={{ background: 'red' }}
             onClick={() => {
               writeHarvest?.()
             }}>
             TAKE REWARDS
-          </Button>
-          <Button
-            style={{ background: 'green' }}
-            onClick={() => {
-              writeReplant?.()
-            }}>
-            COMPOUND
-          </Button>
+          </Button> */}
+          <a
+            href="https://glittery-sunburst-86d85c.netlify.app/"
+            target="_blanck">
+            <Button
+              style={{ background: 'green' }}
+              // onClick={() => {
+              //  writeReplant?.() }}
+            >
+              CHECK REWARDS
+            </Button>
+          </a>
         </div>
       </div>
     </>

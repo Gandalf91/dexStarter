@@ -22,13 +22,15 @@ function Header(props) {
             href="https://www.freecodecamp.org/"
             target="_blank"
             rel="noreferrer">
-            How Does It Worttsss
+            How Does It Work
           </a>
         </div>
       </div>
       <div className="rightH">
         <div className="headerItem">
-          <img src={Tg} alt="tg" />
+          <a href="https://t.me/fastmaticdaily" target="_blanck">
+            <img src={Tg} alt="tg" />
+          </a>
         </div>
         <div className="headerItem">
           <img src={Matic} alt="matic" className="eth" />
