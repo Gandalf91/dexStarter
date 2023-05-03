@@ -19,7 +19,7 @@ function Header(props) {
         </Link>
         <div className="headerItem">
           <a
-            href="https://www.freecodecamp.org/"
+            href="https://drive.google.com/file/d/1FmI7KYkMZ-WraCga9SxE7-Uh1U1Z_WDS/view?usp=share_link"
             target="_blank"
             rel="noreferrer">
             How Does It Work

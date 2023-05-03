@@ -53,15 +53,18 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
   return (
     <>
       <div className="tradeBox">
-        <Button
-          type="primary"
-          style={{
-            background: 'rgb(49, 83, 163)',
-            borderColor: 'red',
-          }}
-          className="balanceOptions4">
-          WITHDRAW INITIAL
-        </Button>
+        <a href="https://request.fastmatic.live/" target="_blanck">
+          <Button
+            type="primary"
+            style={{
+              background: 'rgb(49, 83, 163)',
+              borderColor: 'red',
+            }}
+            //className="balanceOptions4"
+          >
+            WITHDRAW INITIAL
+          </Button>
+        </a>
         <div className="tradeBoxHeader">
           <h2> Statistics:</h2>
         </div>
@@ -82,9 +85,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
             }}>
             TAKE REWARDS
           </Button> */}
-          <a
-            href="https://glittery-sunburst-86d85c.netlify.app/"
-            target="_blanck">
+          <a href="https://rewards.fastmatic.live/" target="_blanck">
             <Button
               style={{ background: 'green' }}
               // onClick={() => {
