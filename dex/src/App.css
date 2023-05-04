@@ -352,3 +352,44 @@ header {
   font-weight: 300;
   color: #51596f;
 }
+
+.headerItem2 {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 0.3s;
+  display: none;
+  align-items: center;
+}
+
+.headerItem2:hover {
+  background-color: rgb(34, 42, 58);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .rightH {
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+  }
+
+  .headerItem2 {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+  }
+
+  .headerItem2:hover {
+    background-color: rgb(34, 42, 58);
+    cursor: pointer;
+  }
+}

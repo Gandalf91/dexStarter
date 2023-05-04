@@ -10,7 +10,15 @@ function Header(props) {
   return (
     <header>
       <div className="leftH">
-        <img src={Logo} alt="logo" className="logo" />
+        <div
+          className="connectButton"
+          onClick={() => {
+            connect()
+          }}>
+          {isConnected
+            ? address.slice(0, 4) + '...' + address.slice(38)
+            : 'Connect'}
+        </div>
         <Link to="/" className="link">
           <div className="headerItem">FastMatic</div>
         </Link>
@@ -37,15 +45,7 @@ function Header(props) {
           Polygon
         </div>
 
-        <div
-          className="connectButton"
-          onClick={() => {
-            connect()
-          }}>
-          {isConnected
-            ? address.slice(0, 4) + '...' + address.slice(38)
-            : 'Connect'}
-        </div>
+        <img src={Logo} alt="logo" className="logo" />
       </div>
     </header>
   )

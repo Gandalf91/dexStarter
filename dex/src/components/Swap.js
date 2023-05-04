@@ -12,6 +12,7 @@ import {
 } from 'wagmi'
 import { polygon } from '@wagmi/chains'
 import ABI from '../abi.json'
+import Tg from '../tg1.svg'
 
 function Swap({ getNameAndBalance }) {
   const [inputAmount, setInputAmount] = useState(null)
@@ -91,6 +92,12 @@ function Swap({ getNameAndBalance }) {
   return (
     <>
       <div className="tradeBox">
+        <div className="headerItem2">
+          <a href="https://t.me/fastmaticdaily" target="_blanck">
+            <img src={Tg} alt="tg" />
+          </a>
+        </div>
+
         <div className="tradeBoxHeader">
           <h4>FIRST EVER MATIC AGGREGATOR IN DEFI</h4>
           <Popover content={settings} trigger="click" placement="bottomRight">
