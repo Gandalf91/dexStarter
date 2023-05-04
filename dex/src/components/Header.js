@@ -25,14 +25,14 @@ function Header(props) {
         <Link to="/dashboard" className="link">
           <div className="headerItem">Dashboard</div>
         </Link>
-        <div className="headerItem">
+        {/* <div className="headerItem">
           <a
             href="https://drive.google.com/file/d/1FmI7KYkMZ-WraCga9SxE7-Uh1U1Z_WDS/view?usp=share_link"
             target="_blank"
             rel="noreferrer">
             How Does It Work
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="rightH">
         <div className="headerItem">

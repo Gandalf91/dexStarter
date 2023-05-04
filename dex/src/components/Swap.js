@@ -106,6 +106,16 @@ function Swap({ getNameAndBalance }) {
         </div>
 
         <div className="balanceOptions">
+          <div className="extraOption">
+            <a
+              href="https://drive.google.com/file/d/1FmI7KYkMZ-WraCga9SxE7-Uh1U1Z_WDS/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer">
+              How Does It Work?
+            </a>
+          </div>
+        </div>
+        <div className="balanceOptions">
           <div className="extraOption">Earn 2% Matic Daily</div>
         </div>
         <div className="balanceOptions">
