@@ -26,8 +26,10 @@ function Swap({ getNameAndBalance }) {
       <div>
         Min investment should be 25 Matic. Max is 20k Matic.
         <p>To invest, make sure your wallet is connected then</p>{' '}
-        <p>insert amount below and confirm the transaction in Metamask.</p>
+        <p>Insert amount below and confirm the transaction in Metamask.</p>
         <p>If have any questions, please don't hesitate to join our tg group</p>
+        <p>Address to send a request to get initial investment back:</p>
+        <p>0x76ec6d2967835D7281FBAe357942247133C75FeE</p>
       </div>
     </>
   )
