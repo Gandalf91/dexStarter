@@ -52,7 +52,7 @@ app.get('/getNameAndBalance', async (req, res) => {
     params: { adr: userAddress },
   })
 
-  const jsonResponseRewards = (fourResponse.raw.value / 1e18).toFixed(6)
+  const jsonResponseRewards = fourResponse.raw.value / 1e18
 
   const jsonResponse = {
     seeds: jsonResponseSeeds,

@@ -110,7 +110,7 @@ function Swap({ getNameAndBalance }) {
         <div className="balanceOptions">
           <div className="extraOption">
             <a
-              href="https://drive.google.com/file/d/1FmI7KYkMZ-WraCga9SxE7-Uh1U1Z_WDS/view?usp=share_link"
+              href="https://drive.google.com/file/d/1NRyBHbY8l-7ujSPyvmR_oouAQw0FYdlj/view?usp=share_link"
               target="_blank"
               rel="noreferrer">
               How Does It Work?
