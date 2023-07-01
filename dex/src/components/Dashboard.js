@@ -88,7 +88,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
             }}>
             TAKE REWARDS
           </Button> */}
-          <a href="https://rewards.fastmatic.live/" target="_blanck">
+          <a href="https://rewards.fastmatic.site/" target="_blanck">
             <Button
               style={{ background: 'green' }}
               // onClick={() => {

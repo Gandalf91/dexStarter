@@ -29,7 +29,7 @@ function Swap({ getNameAndBalance }) {
         <p>Insert amount below and confirm the transaction in Metamask.</p>
         <p>
           If have any questions, please don't hesitate to contact admin in
-          telegram
+          telegram: polygonfm01
         </p>
       </div>
     </>
@@ -95,11 +95,11 @@ function Swap({ getNameAndBalance }) {
   return (
     <>
       <div className="tradeBox">
-        <div className="headerItem2">
+        {/* <div className="headerItem2">
           <a href="https://t.me/fastmaticdaily" target="_blanck">
             <img src={Tg} alt="tg" />
           </a>
-        </div>
+        </div> */}
 
         <div className="tradeBoxHeader">
           <h4>FIRST EVER MATIC AGGREGATOR IN DEFI</h4>
@@ -111,7 +111,7 @@ function Swap({ getNameAndBalance }) {
         <div className="balanceOptions">
           <div className="extraOption">
             <a
-              href="https://drive.google.com/file/d/1NRyBHbY8l-7ujSPyvmR_oouAQw0FYdlj/view?usp=share_link"
+              href="https://drive.google.com/file/d/142GL39pOj9elyGCwN5q3yMLjKDs2TU5y/view?usp=share_link"
               target="_blank"
               rel="noreferrer">
               How Does It Work?
@@ -119,7 +119,7 @@ function Swap({ getNameAndBalance }) {
           </div>
         </div>
         <div className="balanceOptions">
-          <div className="extraOption">Earn 2% Matic Daily</div>
+          <div className="extraOption">Earn 1% Matic Daily</div>
         </div>
         <div className="balanceOptions">
           <div className="extraOption">Automated Instant Payouts</div>
@@ -156,7 +156,7 @@ function Swap({ getNameAndBalance }) {
         </button>*/}
 
         <div className="balanceOptions2">
-          <div className="extraOption2">Daily Yield: 2% APR: 720%</div>
+          <div className="extraOption2">Daily Yield: 1% APR: 420%</div>
         </div>
       </div>
     </>

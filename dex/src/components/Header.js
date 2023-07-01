@@ -35,11 +35,11 @@ function Header(props) {
         </div> */}
       </div>
       <div className="rightH">
-        <div className="headerItem">
+        {/* <div className="headerItem">
           <a href="https://t.me/fastmaticdaily" target="_blanck">
             <img src={Tg} alt="tg" />
           </a>
-        </div>
+        </div> */}
         <div className="headerItem">
           <img src={Matic} alt="matic" className="eth" />
           Polygon
