@@ -24,12 +24,13 @@ function Swap({ getNameAndBalance }) {
   const settings = (
     <>
       <div>
-        Min investment should be 25 Matic. Max is 20k Matic.
+        Min. investment should be 200 Matic. Max. is 100k Matic.
         <p>To invest, make sure your wallet is connected then</p>{' '}
         <p>Insert amount below and confirm the transaction in Metamask.</p>
-        <p>If have any questions, please don't hesitate to join our tg group</p>
-        <p>Address to send a request to get initial investment back:</p>
-        <p>0x76ec6d2967835D7281FBAe357942247133C75FeE</p>
+        <p>
+          If have any questions, please don't hesitate to contact admin in
+          telegram
+        </p>
       </div>
     </>
   )
@@ -126,9 +127,9 @@ function Swap({ getNameAndBalance }) {
         <div className="balanceOptions">
           <div className="extraOption">No Lockup! Withdraw Anytime</div>
         </div>
-        <div className="balanceOptions">
+        {/* <div className="balanceOptions">
           <div className="extraOption">Newbie Friendly Easy To Use</div>
-        </div>
+        </div> */}
         <div className="balanceOptions3">
           <Input placeholder="0" value={inputAmount} onChange={changeAmount} />
           <Button

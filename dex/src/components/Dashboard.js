@@ -53,7 +53,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
   return (
     <>
       <div className="tradeBox">
-        <a href="https://request.fastmatic.live/" target="_blanck">
+        {/* <a href="https://request.fastmatic.live/" target="_blanck">
           <Button
             type="primary"
             style={{
@@ -64,16 +64,19 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
           >
             WITHDRAW INITIAL
           </Button>
-        </a>
+        </a> */}
         <div className="tradeBoxHeader">
           <h2> Statistics:</h2>
         </div>
         <div className="balanceOptionsD">
+          Your balance of Invested funds will appear here after you stake
+        </div>
+        {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Wallet Balance: {balance} Matic</div>
         </div>
         <div className="balanceOptionsD">
           <div className="extraOptionD"> Balance in USD: {dollars}$</div>
-        </div>
+        </div> */}
         {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Rewards: {rewards} Matic</div>
         </div> */}
