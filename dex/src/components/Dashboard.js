@@ -68,9 +68,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         <div className="tradeBoxHeader">
           <h2> Statistics:</h2>
         </div>
-        <div className="balanceOptionsD">
-          Your balance of Invested funds will appear here after you stake
-        </div>
+        <div className="balanceOptionsD">Your staked balance: 300 Matic</div>
         {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Wallet Balance: {balance} Matic</div>
         </div>
