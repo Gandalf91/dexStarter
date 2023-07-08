@@ -68,7 +68,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         <div className="tradeBoxHeader">
           <h2> Statistics:</h2>
         </div>
-        <div className="balanceOptionsD">Your staked balance: 1000 Matic</div>
+        <div className="balanceOptionsD">Your staked balance: 1050 Matic</div>
         {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Wallet Balance: {balance} Matic</div>
         </div>
