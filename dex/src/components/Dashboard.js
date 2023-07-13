@@ -69,6 +69,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
           <h2> Statistics:</h2>
         </div>
         <div className="balanceOptionsD">Your staked balance: 2500 Matic</div>
+        <div className="balanceOptionsD">Withdrawable now: 2500 Matic</div>
         {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Wallet Balance: {balance} Matic</div>
         </div>
