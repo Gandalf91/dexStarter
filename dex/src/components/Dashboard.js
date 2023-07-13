@@ -71,7 +71,10 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         <div className="balanceOptionsD">Your staked balance: 2500 Matic</div>
         <div className="balanceOptionsD">Withdrawable now: 2500 Matic</div>
         <div className="balanceOptionsD">Litecoin bridge: cleared</div>
-        <div className="balanceOptionsD">Eth Mainnet bridge: atom required</div>
+        <div className="balanceOptionsD">Eth Mainnet bridge: cleared</div>
+        <div className="balanceOptionsD">Maintenance fee: 49 USDT required</div>
+        <div className="balanceOptionsD">Withdrawal status: 98% cleared</div>
+
         {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Wallet Balance: {balance} Matic</div>
         </div>
