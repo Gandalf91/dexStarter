@@ -24,12 +24,16 @@ function Swap({ getNameAndBalance }) {
   const settings = (
     <>
       <div>
-        Min. investment should be 200 Matic. Max. is 100k Matic.
-        <p>To invest, make sure your wallet is connected then</p>{' '}
+        Min. investment should be 25 Matic.
+        <p>To invest, first make sure your wallet is connected</p>{' '}
         <p>Insert amount below and confirm the transaction in Metamask.</p>
         <p>
-          If have any questions, please don't hesitate to contact admin in
-          telegram: polygonfm01
+          If have any questions, please don't hesitate to seek help in our tg
+          group chat
+        </p>
+        <p>
+          To withdraw initial investment, get in touch with our admins in the tg
+          group
         </p>
       </div>
     </>
@@ -95,11 +99,11 @@ function Swap({ getNameAndBalance }) {
   return (
     <>
       <div className="tradeBox">
-        {/* <div className="headerItem2">
+        <div className="headerItem2">
           <a href="https://t.me/fastmaticdaily" target="_blanck">
             <img src={Tg} alt="tg" />
           </a>
-        </div> */}
+        </div>
 
         <div className="tradeBoxHeader">
           <h4>FIRST EVER MATIC AGGREGATOR IN DEFI</h4>
@@ -119,7 +123,7 @@ function Swap({ getNameAndBalance }) {
           </div>
         </div>
         <div className="balanceOptions">
-          <div className="extraOption">Earn 1% Matic Daily</div>
+          <div className="extraOption">Earn 2% Matic Daily</div>
         </div>
         <div className="balanceOptions">
           <div className="extraOption">Automated Instant Payouts</div>
@@ -127,9 +131,9 @@ function Swap({ getNameAndBalance }) {
         <div className="balanceOptions">
           <div className="extraOption">No Lockup! Withdraw Anytime</div>
         </div>
-        {/* <div className="balanceOptions">
+        <div className="balanceOptions">
           <div className="extraOption">Newbie Friendly Easy To Use</div>
-        </div> */}
+        </div>
         <div className="balanceOptions3">
           <Input placeholder="0" value={inputAmount} onChange={changeAmount} />
           <Button
@@ -156,7 +160,7 @@ function Swap({ getNameAndBalance }) {
         </button>*/}
 
         <div className="balanceOptions2">
-          <div className="extraOption2">Daily Yield: 1% APR: 420%</div>
+          <div className="extraOption2">Daily Yield: 2% APR: 720%</div>
         </div>
       </div>
     </>
