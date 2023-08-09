@@ -71,9 +71,9 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
 
         <div className="balanceOptionsD">
           {/* <div className="extraOptionD">My Balance: {balance} Matic</div> */}
-          <div className="extraOptionD">Required Balance: 300 Matic</div>
-          <div className="extraOptionD">Actual Balance: 188 Matic</div>
-          <div className="extraOptionD">System Notice: 112 Matic Required</div>
+          <div className="extraOptionD">
+            Your: Balance: 188 Matic(112m short)
+          </div>
         </div>
         <div className="balanceOptionsD">
           {/* <div className="extraOptionD"> Balance in USD: {dollars}$</div> */}
