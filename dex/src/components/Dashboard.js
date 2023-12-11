@@ -70,7 +70,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         </div>
 
         <div className="balanceOptionsD">
-          <div className="extraOptionD">My Balance: {balance}Matic</div>
+          <div className="extraOptionD">My Balance: 260 Matic</div>
         </div>
         <div className="balanceOptionsD">
           <div className="extraOptionD"> Balance in USD: {dollars}$</div>

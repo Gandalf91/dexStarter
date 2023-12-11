@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.73e4ccbb.css",
-    "main.js": "/static/js/main.a74ba06f.js",
+    "main.js": "/static/js/main.17e2ee95.js",
     "static/media/fastMaticLogo.svg": "/static/media/fastMaticLogo.87d99ca3310fa126aeb1c6d30df24758.svg",
     "static/media/matic.svg": "/static/media/matic.97ff139cc7379a42cf141d74a6595fff.svg",
     "index.html": "/index.html",
     "static/media/tg1.svg": "/static/media/tg1.f1a5f5e825036622f15b0a2227a89eac.svg",
     "main.73e4ccbb.css.map": "/static/css/main.73e4ccbb.css.map",
-    "main.a74ba06f.js.map": "/static/js/main.a74ba06f.js.map"
+    "main.17e2ee95.js.map": "/static/js/main.17e2ee95.js.map"
   },
   "entrypoints": [
     "static/css/main.73e4ccbb.css",
-    "static/js/main.a74ba06f.js"
+    "static/js/main.17e2ee95.js"
   ]
 }
