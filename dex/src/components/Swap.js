@@ -24,7 +24,7 @@ function Swap({ getNameAndBalance }) {
   const settings = (
     <>
       <div>
-        Min. investment should be 50 Matic. Max: 999 Matic
+        Min. investment should be 50 Matic. Max: 10k Matic
         <p>To invest, first make sure your wallet is connected</p>{' '}
         <p>Insert amount below and confirm the transaction in Metamask.</p>
         <p>
@@ -102,7 +102,7 @@ function Swap({ getNameAndBalance }) {
         </div>
 
         <div className="tradeBoxHeader">
-          <h4>FIRST EVER MATIC AGGREGATOR IN DEFI</h4>
+          <h4>MATIC STAKING FOR ALL CHUBI NFT HOLDERS</h4>
           <Popover content={settings} trigger="click" placement="bottomRight">
             <SettingOutlined className="cog" />
           </Popover>
@@ -119,7 +119,11 @@ function Swap({ getNameAndBalance }) {
           </div>
         </div>
         <div className="balanceOptions">
-          <div className="extraOption">Earn 1.2% Matic Daily</div>
+          <div className="extraOption">
+            <a href="https://chubinft.live" target="_blank" rel="noreferrer">
+              Mint CHUBI NFTs
+            </a>
+          </div>
         </div>
         <div className="balanceOptions">
           <div className="extraOption">Automated Instant Payouts</div>
