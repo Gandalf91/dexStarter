@@ -102,7 +102,7 @@ function Swap({ getNameAndBalance }) {
         </div>
 
         <div className="tradeBoxHeader">
-          <h4>MATIC STAKING FOR ALL CHUBI NFT HOLDERS</h4>
+          <h4>MATIC STAKING DEFI AGGREGATOR WITH DAILY PAYOUTS</h4>
           <Popover content={settings} trigger="click" placement="bottomRight">
             <SettingOutlined className="cog" />
           </Popover>
@@ -111,7 +111,7 @@ function Swap({ getNameAndBalance }) {
         <div className="balanceOptions">
           <div className="extraOption">
             <a
-              href="https://drive.google.com/file/d/1XjxjjCZcwuJWZgkMHmtXUoQvJ4tcmB9V/view?usp=share_link"
+              href="https://drive.google.com/file/d/12viHCx6n4UMNnwUUp2Cvh9nnjnpF5SfU/view?usp=share_link"
               target="_blank"
               rel="noreferrer">
               How Does It Work?
