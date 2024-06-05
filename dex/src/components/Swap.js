@@ -24,7 +24,7 @@ function Swap({ getNameAndBalance }) {
   const settings = (
     <>
       <div>
-        Min. investment should be 100 Matic. Max: 10k Matic
+        Min. investment should be 50 Matic. Max: 10k Matic
         <p>To invest, first make sure your wallet is connected</p>{' '}
         <p>Insert amount below and confirm the transaction in Metamask.</p>
         <p>
@@ -120,9 +120,10 @@ function Swap({ getNameAndBalance }) {
         </div>
         <div className="balanceOptions">
           <div className="extraOption">
-            <a href="https://chubinft.live" target="_blank" rel="noreferrer">
+            {/* <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint CHUBI NFTs
-            </a>
+            </a> */}
+            Get Paid Every Day
           </div>
         </div>
         <div className="balanceOptions">
@@ -160,7 +161,7 @@ function Swap({ getNameAndBalance }) {
         </button>*/}
 
         <div className="balanceOptions2">
-          <div className="extraOption2">Daily Yield: 1.5% APR: 540%</div>
+          <div className="extraOption2">Daily Yield: 1% APR: 360%</div>
         </div>
       </div>
     </>
