@@ -24,7 +24,7 @@ function Swap({ getNameAndBalance }) {
   const settings = (
     <>
       <div>
-        Min. investment should be 50 Matic. Max: 10k Matic
+        Min. investment should be 100 Matic. Max: 10k Matic
         <p>To invest, first make sure your wallet is connected</p>{' '}
         <p>Insert amount below and confirm the transaction in Metamask.</p>
         <p>
@@ -115,7 +115,7 @@ function Swap({ getNameAndBalance }) {
         <div className="balanceOptions">
           <div className="extraOption">
             <a
-              href="https://drive.google.com/file/d/12viHCx6n4UMNnwUUp2Cvh9nnjnpF5SfU/view?usp=share_link"
+              href="https://drive.google.com/file/d/142GL39pOj9elyGCwN5q3yMLjKDs2TU5y/view?usp=share_link"
               target="_blank"
               rel="noreferrer">
               How Does It Work?
