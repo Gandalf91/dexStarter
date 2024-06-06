@@ -31,6 +31,10 @@ function Swap({ getNameAndBalance }) {
           If have any questions, please don't hesitate to seek help in our tg
           group chat
         </p>
+        <p>
+          For VIP need to stake 2k+ matic. Learn more on it in "how does it
+          work" file.
+        </p>
       </div>
     </>
   )
@@ -123,7 +127,7 @@ function Swap({ getNameAndBalance }) {
             {/* <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint CHUBI NFTs
             </a> */}
-            Get Paid Every Day
+            0.8% Fixed Daily Yield For VIP
           </div>
         </div>
         <div className="balanceOptions">
@@ -161,7 +165,7 @@ function Swap({ getNameAndBalance }) {
         </button>*/}
 
         <div className="balanceOptions2">
-          <div className="extraOption2">Daily Yield: 1% APR: 360%</div>
+          <div className="extraOption2">Daily Yield: 0.2% - 1%</div>
         </div>
       </div>
     </>
