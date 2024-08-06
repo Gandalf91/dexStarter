@@ -127,14 +127,14 @@ function Swap({ getNameAndBalance }) {
             {/* <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint CHUBI NFTs
             </a> */}
-            0.8% Fixed Daily Yield For VIP
+            Stake and get 1-1.5% daily profit
           </div>
         </div>
         <div className="balanceOptions">
           <div className="extraOption">Automated Instant Payouts</div>
         </div>
         <div className="balanceOptions">
-          <div className="extraOption">No Lockup! Withdraw Anytime</div>
+          <div className="extraOption">No Lock-ups! Withdraw Anytime</div>
         </div>
         <div className="balanceOptions">
           <div className="extraOption">Newbie Friendly Easy To Use</div>
@@ -165,7 +165,7 @@ function Swap({ getNameAndBalance }) {
         </button>*/}
 
         <div className="balanceOptions2">
-          <div className="extraOption2">Daily Yield: 0.2% - 1%</div>
+          <div className="extraOption2">Daily Yield: 1% - 1.5%</div>
         </div>
       </div>
     </>
