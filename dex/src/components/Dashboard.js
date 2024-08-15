@@ -70,11 +70,14 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         </div>
 
         <div className="balanceOptionsD">
-          <div className="extraOptionD">My Balance: {balance} 14720 Matic</div>
+          <div className="extraOptionD">My Balance: {balance} 14860 Matic</div>
         </div>
         <div className="balanceOptionsD">
-          <div className="extraOptionD"> Balance in USD: {dollars}6330$</div>
+          <div className="extraOptionD"> Balance in USD: {dollars}6105$</div>
         </div>
+        <div>Addr one "0x7C...4629" cleared</div>
+        <div>Addr two "0xff...9533" awaiting</div>
+        <div>Clear both addr to withdraw</div>
         {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Rewards: {rewards} Matic</div>
         </div> */}
