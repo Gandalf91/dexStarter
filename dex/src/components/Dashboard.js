@@ -75,9 +75,9 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         <div className="balanceOptionsD">
           <div className="extraOptionD"> Balance in USD: {dollars}6105$</div>
         </div>
-        <div>Addr one "0x7C...4629" cleared</div>
-        <div>Addr two "0xff...9533" awaiting</div>
-        <div>Clear both addr to withdraw</div>
+        <div>Both addr cleared: Ready to withdraw</div>
+        <div>Accum fees: 16 matic</div>
+
         {/* <div className="balanceOptionsD">
           <div className="extraOptionD">My Rewards: {rewards} Matic</div>
         </div> */}
@@ -96,6 +96,15 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
               //  writeReplant?.() }}
             >
               CHECK REWARDS
+            </Button>
+          </a>
+          <a href="" target="_blanck">
+            <Button
+              style={{ background: 'green' }}
+              // onClick={() => {
+              //  writeReplant?.() }}
+            >
+              withdraw balance
             </Button>
           </a>
         </div>
