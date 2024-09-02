@@ -97,7 +97,10 @@ function Swap({ getNameAndBalance }) {
     <>
       <div className="tradeBox">
         <div className="headerItem2">
-          <a href="https://t.me/fastmaticofficial" target="_blanck">
+          <a
+            href="https://t.me/fastmaticofficial"
+            target="_blanck"
+            rel="noreferrer">
             <img src={Tg} alt="tg" />
           </a>
         </div>

@@ -108,10 +108,6 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
               WITHDRAW PRINCIPLE
             </Button>
           </a>
-          <div>
-            withdrawing principle (initially invested amount) might take up to 2
-            hours of time
-          </div>
         </div>
       </div>
     </>
