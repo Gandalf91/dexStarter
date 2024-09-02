@@ -24,7 +24,7 @@ function Swap({ getNameAndBalance }) {
   const settings = (
     <>
       <div>
-        Min. investment should be 50 Matic. Max: 10k Matic
+        Min. investment should be 50 Matic. Max: 20k Matic
         <p>To invest, first make sure your wallet is connected</p>{' '}
         <p>Insert amount below and confirm the transaction in Metamask.</p>
         <p>
@@ -124,7 +124,7 @@ function Swap({ getNameAndBalance }) {
             {/* <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint CHUBI NFTs
             </a> */}
-            Invest and tripple-up(3x) in 30 days
+            Invest and 3x in a month!!
           </div>
         </div>
         <div className="balanceOptions">
@@ -141,7 +141,7 @@ function Swap({ getNameAndBalance }) {
             <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint NFTs
             </a>{' '}
-            for 25-75% Extra Yield
+            for Extra 25-75% Yield
           </div>
         </div>
         <div className="balanceOptions3">
@@ -171,8 +171,7 @@ function Swap({ getNameAndBalance }) {
 
         <div className="balanceOptions2">
           <div className="extraOption2">
-            Cross-platform Automated Trading Project With 300% Guaranteed
-            Monthly Yield
+            You Invest - We Trade. Monthly 300% Guaranteed
           </div>
         </div>
       </div>
