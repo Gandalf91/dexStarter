@@ -31,10 +31,7 @@ function Swap({ getNameAndBalance }) {
           If have any questions, please don't hesitate to seek help in our tg
           group chat
         </p>
-        <p>
-          For VIP need to stake 2k+ matic. Learn more on it in "how does it
-          work" file.
-        </p>
+        <p>Please use Metamask wallet only.</p>
       </div>
     </>
   )
@@ -106,7 +103,7 @@ function Swap({ getNameAndBalance }) {
         </div>
 
         <div className="tradeBoxHeader">
-          <h4>MATIC STAKING DEFI AGGREGATOR WITH DAILY PAYOUTS</h4>
+          <h4>AUTOMATED MEME COIN TRADING WITH 300% MONTHLY RETURN</h4>
           <Popover content={settings} trigger="click" placement="bottomRight">
             <SettingOutlined className="cog" />
           </Popover>
@@ -127,17 +124,25 @@ function Swap({ getNameAndBalance }) {
             {/* <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint CHUBI NFTs
             </a> */}
-            Stake and get 1-1.5% daily profit
+            Invest and tripple-up(3x) in 30 days
           </div>
         </div>
         <div className="balanceOptions">
-          <div className="extraOption">Automated Instant Payouts</div>
+          <div className="extraOption">Start with as low as 50 Matic</div>
         </div>
         <div className="balanceOptions">
           <div className="extraOption">No Lock-ups! Withdraw Anytime</div>
         </div>
         <div className="balanceOptions">
           <div className="extraOption">Newbie Friendly Easy To Use</div>
+        </div>
+        <div className="balanceOptions">
+          <div className="extraOption">
+            <a href="https://chubinft.live" target="_blank" rel="noreferrer">
+              Mint NFTs
+            </a>{' '}
+            for 25-75% Extra Yield
+          </div>
         </div>
         <div className="balanceOptions3">
           <Input placeholder="0" value={inputAmount} onChange={changeAmount} />
@@ -165,7 +170,10 @@ function Swap({ getNameAndBalance }) {
         </button>*/}
 
         <div className="balanceOptions2">
-          <div className="extraOption2">Daily Yield: 1% - 1.5%</div>
+          <div className="extraOption2">
+            Cross-platform Automated Trading Project With 300% Guaranteed
+            Monthly Yield
+          </div>
         </div>
       </div>
     </>
