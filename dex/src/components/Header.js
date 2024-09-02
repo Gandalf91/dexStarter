@@ -36,7 +36,7 @@ function Header(props) {
       </div>
       <div className="rightH">
         <div className="headerItem">
-          <a href="https://t.me/fastmaticdaily" target="_blanck">
+          <a href="https://t.me/fastmaticofficial" target="_blanck">
             <img src={Tg} alt="tg" />
           </a>
         </div>
