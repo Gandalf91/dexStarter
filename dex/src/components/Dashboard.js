@@ -70,10 +70,13 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
         </div>
 
         <div className="balanceOptionsD">
-          <div className="extraOptionD">My Balance: {balance} Matic</div>
+          <div className="extraOptionD">Invested amount: {balance} Matic</div>
         </div>
         <div className="balanceOptionsD">
-          <div className="extraOptionD"> Balance in USD: {dollars}$</div>
+          <div className="extraOptionD">
+            {' '}
+            Total Rewards Withdrawn: {dollars} Matic
+          </div>
         </div>
 
         {/* <div className="balanceOptionsD">
@@ -102,9 +105,15 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
               // onClick={() => {
               //  writeReplant?.() }}
             >
-              withdraw balance
+              WITHDRAW PRINCIPLE
             </Button>
           </a>
+          <div className="balanceOptionsD">
+            <div className="extraOptionD">
+              withdrawing principle (initially invested amount) might take up to
+              2 hours of time
+            </div>
+          </div>
         </div>
       </div>
     </>
