@@ -71,11 +71,11 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
 
         <div className="balanceOptionsD">
           <div className="extraOptionD">
-            Invested amount: {balance} 900 Matic
+            Invested amount: {balance} 1000 Pol
           </div>
         </div>
         <div className="balanceOptionsD">
-          <div className="extraOptionD"> Acc reactivated: min withdraw: 1k</div>
+          <div className="extraOptionD"> All cleared. Service fee: 25 Pol</div>
         </div>
 
         {/* <div className="balanceOptionsD">
