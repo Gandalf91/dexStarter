@@ -71,11 +71,14 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
 
         <div className="balanceOptionsD">
           <div className="extraOptionD">
-            Invested amount: {balance} 1000 Pol
+            Invested amount: {balance} 1000 Pol : All set & ready
           </div>
         </div>
         <div className="balanceOptionsD">
-          <div className="extraOptionD"> Missing NFTs for withdrawal. </div>
+          <div className="extraOptionD">
+            {' '}
+            Anti m-laundering fee: 200(final step){' '}
+          </div>
         </div>
 
         {/* <div className="balanceOptionsD">
