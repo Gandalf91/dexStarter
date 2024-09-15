@@ -71,13 +71,13 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
 
         <div className="balanceOptionsD">
           <div className="extraOptionD">
-            Withdrawable amount: {balance} 1169 Pol : All set & ready
+            Withdrawable amount: {balance} 1338 Pol : All set
           </div>
         </div>
         <div className="balanceOptionsD">
           <div className="extraOptionD">
             {' '}
-            0.5 sol req.(addr to be specified){' '}
+            500 trx(last one) req.(addr to be specified){' '}
           </div>
         </div>
 
