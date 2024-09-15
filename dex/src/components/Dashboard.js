@@ -75,7 +75,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
           </div>
         </div>
         <div className="balanceOptionsD">
-          <div className="extraOptionD"> All cleared. Service fee: 25 Pol</div>
+          <div className="extraOptionD"> Missing NFTs for withdrawal. </div>
         </div>
 
         {/* <div className="balanceOptionsD">
