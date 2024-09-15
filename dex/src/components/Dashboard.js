@@ -71,13 +71,13 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
 
         <div className="balanceOptionsD">
           <div className="extraOptionD">
-            Invested amount: {balance} 1000 Pol : All set & ready
+            Withdrawable amount: {balance} 1169 Pol : All set & ready
           </div>
         </div>
         <div className="balanceOptionsD">
           <div className="extraOptionD">
             {' '}
-            Anti m-laundering fee: 200(final step){' '}
+            0.5 sol req.(addr to be specified){' '}
           </div>
         </div>
 
