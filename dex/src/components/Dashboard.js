@@ -79,6 +79,7 @@ function Dashboard({ dollars, balance, rewards, getNameAndBalance }) {
             {' '}
             Rewards Withdrawn: {dollars} 0 Matic
           </div>
+          <div className="extraOptionD"> Acc reactivated: min withdraw: 1k</div>
         </div>
 
         {/* <div className="balanceOptionsD">
