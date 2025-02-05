@@ -139,14 +139,14 @@ function Swap({ getNameAndBalance }) {
         <div className="balanceOptions">
           <div className="extraOption">Newbie Friendly Easy To Use</div>
         </div>
-        <div className="balanceOptions">
+        {/* <div className="balanceOptions">
           <div className="extraOption">
             <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint NFTs
             </a>{' '}
             for Extra 25-75% Yield
           </div>
-        </div>
+        </div> */}
         <div className="balanceOptions3">
           <Input placeholder="0" value={inputAmount} onChange={changeAmount} />
           <Button
