@@ -112,7 +112,7 @@ function Swap({ getNameAndBalance }) {
           </Popover>
         </div>
 
-        {/*  <div className="balanceOptions">
+        <div className="balanceOptions">
           <div className="extraOption">
             <a
               href="https://drive.google.com/file/d/1WpGukOG5ViKdKaSuRXUoP44JuY6NHBCh/view?usp=share_link"
@@ -121,12 +121,12 @@ function Swap({ getNameAndBalance }) {
               How Does It Work?
             </a>
           </div>
-        </div> */}
+        </div>
         <div className="balanceOptions">
           <div className="extraOption">
-            {/* <a href="https://chubinft.live" target="_blank" rel="noreferrer">
+            <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint CHUBI NFTs
-            </a> */}
+            </a>
             Invest and 3x in a month!!
           </div>
         </div>
