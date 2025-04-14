@@ -124,9 +124,9 @@ function Swap({ getNameAndBalance }) {
         </div>
         <div className="balanceOptions">
           <div className="extraOption">
-            <a href="https://chubinft.live" target="_blank" rel="noreferrer">
+            {/* <a href="https://chubinft.live" target="_blank" rel="noreferrer">
               Mint CHUBI NFTs
-            </a>
+            </a> */}
             Invest and 3x in a month!!
           </div>
         </div>
